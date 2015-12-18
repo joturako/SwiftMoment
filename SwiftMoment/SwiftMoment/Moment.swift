@@ -51,6 +51,7 @@ public func moment(stringDate: String
     // https://github.com/moment/moment/blob/develop/moment.js
     let formats = [
         isoFormat,
+        "yyyy-MM-dd HH:mm:ss",
         "yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'",
         "yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'SSS'Z'",
         "yyyy-MM-dd",
